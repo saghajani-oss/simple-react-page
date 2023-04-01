@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* STYLING NAV */
+nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.3);
+}
+
+nav.dark {
+  background-color: rgb(52, 52, 52);
+}
+
+nav img {
+  width: 60px;
+  height: 60px;
+  margin-left: 20px;
+}
+
+nav h2 {
+  margin-left: 15px;
+  color: #77dffc;
+}
+
+nav .toggler {
+  margin-left: 70%;
+  display: flex;
+  align-items: center;
+}
+
+nav .toggler .toggler-light {
+  color: black;
+  font-size: 0.9rem;
+  margin-right: 10px;
+}
+
+nav.dark .toggler .toggler-light {
+  color: rgb(148, 148, 148);
+}
+
+nav .toggler .toggler-slider {
+  width: 40px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+nav.dark .toggler .toggler-slider {
+  background-color: white;
+}
+
+nav .toggler .toggler-slider .toggler-slider-circle {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  left: 1px;
+  cursor: pointer;
+}
+
+nav.dark .toggler .toggler-slider .toggler-slider-circle {
+  background-color: rgb(52, 52, 52);
+  margin-left: 18.5px;
+}
+
+nav .toggler .toggler-dark {
+  font-size: 0.9rem;
+  margin-left: 10px;
+  color: rgb(90, 90, 90);
+}
+
+nav.dark .toggler .toggler-dark {
+  color: white;
+}
+/* STYLING NAV */
+
+/* STYLING MAIN */
+
+main {
+  color: rgb(52, 52, 52);
+  text-align: left;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+main.dark {
+  color: white;
+  background-color: rgb(78, 77, 77);
+}
+
+main h1 {
+  font-size: 3rem;
+  margin: 0;
+  padding: 40px 40px;
+}
+
+main ul {
+  padding: 0px 60px;
+}
+
+main ul li {
+  font-size: 20px;
+  line-height: 4rem;
+}
+
+main ul li::marker {
+  color: #77dffc;
+  font-size: 26px;
+}
+
+
+
+
+
+
+/* STYLING MAIN */
